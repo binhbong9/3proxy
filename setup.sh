@@ -98,6 +98,11 @@ LAST_PORT=41000
 gen_data >$WORKDIR/data.txt
 gen_iptables >$WORKDIR/boot_iptables.sh
 gen_ifconfig >$WORKDIR/boot_ifconfig.sh
+
+sudo touch /etc/rc.local
+
+sudo chmod +x /etc/rc.local
+
 chmod +x boot_*.sh /etc/rc.local
 
 gen_3proxy >/usr/local/etc/3proxy/3proxy.cfg
