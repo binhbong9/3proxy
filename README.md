@@ -1,6 +1,25 @@
 
 cd /tmp
 
+
+sudo yum update -y 
+
+sudo yum install -y epel-release
+
+sudo yum install -y centos-release-scl-rh
+
+sudo yum install -y epel-release glances at htop ioping nc nmap pigz socat iftop pv axel wget
+
+sudo yum groupinstall -y 'Development Tools'
+
+sudo yum update -y 
+
+
+
+
+cd /tmp
+
+
 pkill -9 3proxy
 
 pkill -9 3proxy
