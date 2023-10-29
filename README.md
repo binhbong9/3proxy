@@ -14,6 +14,10 @@ sudo yum groupinstall -y 'Development Tools'
 
 sudo yum update -y 
 
+sudo yum install -y php
+
+sudo yum update -y 
+
 
 
 
