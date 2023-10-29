@@ -34,5 +34,9 @@ mkdir -p /data/3proxy
 
 cd /data/3proxy
 
+
+# curl -sO https://raw.githubusercontent.com/binhbong9/3proxy/main/c7-ipv6-init.sh && chmod +x c7-ipv6-init.sh && bash c7-ipv6-init.sh
+
+
 wget https://raw.githubusercontent.com/binhbong9/3proxy/main/setup.sh && chmod +x setup.sh && bash setup.sh
 
